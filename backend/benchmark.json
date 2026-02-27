@@ -1,0 +1,148 @@
+{
+  "tests": {
+    "Hemoglobin": {
+      "normal_min": 12.0,
+      "normal_max": 17.5,
+      "critical_min": 7.0,
+      "unit": "g/dL",
+      "risk_weight": 2,
+      "description": "Hemoglobin is the protein in red blood cells that carries oxygen from the lungs to the rest of the body.",
+      "low_description": "Low hemoglobin may suggest the body has fewer red blood cells than usual. This can sometimes make people feel tired or short of breath.",
+      "high_description": "Higher than typical hemoglobin may indicate the body is producing more red blood cells. This can sometimes occur at high altitudes or with certain conditions.",
+      "educational_text": "Hemoglobin is a vital protein found in red blood cells. It is responsible for transporting oxygen throughout your body. Normal hemoglobin levels range from 12.0 to 17.5 g/dL depending on age and sex. Levels below this range may indicate that fewer red blood cells are available to carry oxygen, which can cause fatigue or dizziness. Maintaining healthy iron levels through diet is one general way to support hemoglobin production. Always consult a healthcare professional for interpretation."
+    },
+    "RBC": {
+      "normal_min": 4.2,
+      "normal_max": 5.9,
+      "unit": "million cells/mcL",
+      "risk_weight": 2,
+      "description": "Red Blood Cell count measures the number of red blood cells in your blood.",
+      "low_description": "Fewer red blood cells than typical may mean less oxygen is being transported, which can lead to tiredness.",
+      "high_description": "A higher red blood cell count could mean the body is producing extra cells, sometimes in response to low oxygen environments.",
+      "educational_text": "Red Blood Cells (RBC) are the most common type of blood cell. They are responsible for delivering oxygen to body tissues. A normal RBC count is typically 4.2 to 5.9 million cells per microliter of blood. Low RBC counts, often alongside low hemoglobin, may suggest the presence of a blood-related nutritional concern. High counts can be associated with high-altitude living or other physiological adaptations. This measure is one of several read together for a full picture. Always consult a healthcare professional."
+    },
+    "WBC": {
+      "normal_min": 4.0,
+      "normal_max": 11.0,
+      "unit": "thousand cells/mcL",
+      "risk_weight": 2,
+      "description": "White Blood Cells are your body's primary immune defense cells.",
+      "low_description": "A lower white blood cell count may mean the immune system is less active than usual, which could affect how your body responds to infections.",
+      "high_description": "A higher white blood cell count often means your immune system may be actively responding to something, such as an infection or inflammation.",
+      "educational_text": "White Blood Cells (WBC) are the cells of the immune system that defend the body against infectious disease and foreign materials. Normal WBC counts range from 4,000 to 11,000 cells per microliter. A WBC count that is higher than normal may indicate an active immune response, while a count lower than normal may suggest a weakened immune state. WBC levels are evaluated as part of a complete blood count (CBC). Always consult a healthcare professional for proper interpretation of your results."
+    },
+    "Platelets": {
+      "normal_min": 150,
+      "normal_max": 400,
+      "unit": "thousand/mcL",
+      "risk_weight": 1,
+      "description": "Platelets are small blood cells that help your body form clots to stop bleeding.",
+      "low_description": "Lower platelet counts may mean blood takes longer to clot after a cut or injury.",
+      "high_description": "Higher platelet counts may mean blood could clot more readily than usual.",
+      "educational_text": "Platelets, also known as thrombocytes, are small cell fragments in the blood that play an essential role in clotting. When you are injured, platelets gather at the site and help form a clot to stop bleeding. Normal platelet counts range from 150,000 to 400,000 per microliter. Low platelet counts may be associated with slower clotting, while high platelet counts can sometimes be related to inflammation or other conditions. Platelet levels are typically measured as part of a complete blood count. Please consult a healthcare professional for guidance."
+    },
+    "LDL": {
+      "normal_min": 0,
+      "normal_max": 100,
+      "unit": "mg/dL",
+      "risk_weight": 3,
+      "description": "LDL cholesterol is often called 'bad' cholesterol because high levels can build up in arteries.",
+      "low_description": "LDL within the lower range is generally considered favorable for cardiovascular health.",
+      "high_description": "Higher LDL levels are associated with an elevated possibility of plaque buildup in arteries over time. Lifestyle adjustments and medical consultation are typically recommended.",
+      "educational_text": "Low-Density Lipoprotein (LDL) is a type of cholesterol sometimes referred to as 'bad' cholesterol. High levels of LDL in the blood can lead to the buildup of plaques in arteries, which may over time narrow the arteries and restrict blood flow. The general guideline is that LDL should be below 100 mg/dL for most adults, though optimal targets can vary based on individual health history. Lifestyle factors such as diet and physical activity can influence LDL levels. This is educational information only. Please consult a healthcare professional."
+    },
+    "HDL": {
+      "normal_min": 40,
+      "normal_max": 999,
+      "unit": "mg/dL",
+      "risk_weight": 2,
+      "description": "HDL cholesterol is often called 'good' cholesterol because it helps remove other forms of cholesterol from the bloodstream.",
+      "low_description": "Lower HDL levels may mean less 'good' cholesterol is available to help clear other cholesterol from the bloodstream.",
+      "high_description": "HDL is within a range that is generally associated with positive cardiovascular health indicators.",
+      "educational_text": "High-Density Lipoprotein (HDL) is commonly referred to as 'good' cholesterol. It helps transport cholesterol from other parts of the body back to the liver, where it can be processed and eliminated. Higher levels of HDL are generally considered beneficial for cardiovascular health. A level of 40 mg/dL or higher is typically considered acceptable, with 60 mg/dL or above often associated with a protective effect. Physical activity and a balanced diet are factors that may help support healthy HDL levels. Please consult a healthcare professional for personalized guidance."
+    },
+    "Fasting Glucose": {
+      "normal_min": 70,
+      "normal_max": 99,
+      "critical_min": 50,
+      "critical_max": 300,
+      "unit": "mg/dL",
+      "risk_weight": 3,
+      "description": "Fasting glucose measures the amount of sugar in your blood after not eating for at least 8 hours.",
+      "low_description": "Blood sugar below the typical fasting range may indicate the body has less available glucose than usual, which can sometimes cause lightheadedness.",
+      "high_description": "Blood sugar above the typical fasting range may mean the body is having difficulty regulating sugar levels. Levels between 100–125 are sometimes called prediabetic range, and 126+ may indicate diabetes — but a doctor must evaluate this.",
+      "educational_text": "Fasting blood glucose is a measure of the amount of sugar (glucose) in your blood after an overnight fast of at least 8 hours. Glucose is an important energy source for your body, and maintaining it in a healthy range is important for overall health. Normal fasting glucose levels are generally between 70 and 99 mg/dL. Values between 100–125 mg/dL may sometimes be referred to as impaired fasting glucose. Values of 126 mg/dL or above on more than one test may require follow-up with a healthcare provider. Diet, physical activity, and other factors can influence glucose levels. Please consult a healthcare professional."
+    },
+    "Creatinine": {
+      "normal_min": 0.6,
+      "normal_max": 1.2,
+      "unit": "mg/dL",
+      "risk_weight": 2,
+      "description": "Creatinine is a waste product that your kidneys filter out. It is a common marker of kidney function.",
+      "low_description": "Lower creatinine than typical may sometimes be related to lower muscle mass and is generally considered less concerning.",
+      "high_description": "Higher creatinine levels may suggest the kidneys are filtering waste less efficiently than usual. This warrants attention and follow-up with a healthcare professional.",
+      "educational_text": "Creatinine is a natural waste product generated by muscles during normal activity. Healthy kidneys filter creatinine from the blood and excrete it in urine. Normal creatinine levels in adults typically range from 0.6 to 1.2 mg/dL. Persistently elevated creatinine may indicate that the kidneys are not filtering as efficiently as expected. This is one of several markers used to assess kidney function. Hydration, muscle mass, and diet can all influence creatinine levels. Always consult a healthcare professional to understand what your creatinine level means for your personal health."
+    },
+    "Potassium": {
+      "normal_min": 3.5,
+      "normal_max": 5.0,
+      "critical_min": 2.5,
+      "critical_max": 6.0,
+      "unit": "mEq/L",
+      "risk_weight": 3,
+      "description": "Potassium is a crucial mineral and electrolyte that helps nerves function and muscles contract.",
+      "low_description": "Potassium levels below 2.5 mEq/L can cause significant muscle weakness and irregular heart rhythms.",
+      "high_description": "Potassium levels above 6.0 mEq/L can be dangerous for heart function.",
+      "educational_text": "Potassium is an essential mineral that your body needs to work properly. It is especially important for the heart and muscle function. Normal levels generally range from 3.5 to 5.0 mEq/L. Values outside this range, especially below 2.5 or above 6.0 mEq/L, and can require urgent medical evaluation."
+    },
+    "Sodium": {
+      "normal_min": 135,
+      "normal_max": 145,
+      "critical_min": 120,
+      "critical_max": 160,
+      "unit": "mEq/L",
+      "risk_weight": 3,
+      "description": "Sodium is an electrolyte that controls water balance in the body.",
+      "low_description": "Very low sodium can cause confusion and needs medical attention.",
+      "high_description": "Very high sodium can cause severe dehydration and requires medical attention.",
+      "educational_text": "Sodium is an electrolyte crucial for fluid balance and nerve function. Typical levels are 135 to 145 mEq/L. Extremes in sodium levels require medical evaluation."
+    },
+    "Troponin": {
+      "normal_min": 0,
+      "normal_max": 0.04,
+      "critical_max": 0.4,
+      "unit": "ng/mL",
+      "risk_weight": 5,
+      "description": "Troponin is a protein found in heart muscle.",
+      "low_description": "Normal troponin levels are very low.",
+      "high_description": "Elevated troponin may indicate heart muscle injury.",
+      "educational_text": "Troponin tests measure proteins from the heart muscle. High levels can indicate injury to the heart. This requires urgent medical evaluation."
+    }
+  },
+  "correlations": [
+    {
+      "id": "possible_anemia_pattern",
+      "tests": [
+        "Hemoglobin",
+        "RBC"
+      ],
+      "conditions": [
+        "Low",
+        "Low"
+      ],
+      "message": "Both Hemoglobin and Red Blood Cell count appear lower than the typical reference range. When these two values are low together, it may sometimes be associated with patterns related to how the body produces or maintains red blood cells. This is informational only — a healthcare professional can evaluate this further."
+    },
+    {
+      "id": "cardiovascular_risk_pattern",
+      "tests": [
+        "LDL",
+        "HDL"
+      ],
+      "conditions": [
+        "High",
+        "Low"
+      ],
+      "message": "LDL cholesterol appears above the typical reference range, and HDL cholesterol appears below it. When LDL is elevated and HDL is low together, it may be associated with cardiovascular health patterns worth discussing with a doctor. This is informational only — a healthcare professional can evaluate this further."
+    }
+  ]
+}

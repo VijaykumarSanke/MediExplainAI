@@ -1,0 +1,34 @@
+# ============================================================
+# Lab Report Intelligence Agent – Python Dependencies
+# ============================================================
+
+# --- Web Framework ---
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9        # Required for FastAPI file uploads
+httpx<0.28.0                   # Prevent 'proxies' error in OpenAI client
+# --- PDF Parsing ---
+pdfplumber==0.11.0
+
+# --- Data Processing ---
+pandas==2.2.2
+
+# --- AI / LLM ---
+openai==1.30.1                 # GPT-4o-mini via OpenAI API
+
+# --- LangChain Ecosystem ---
+langchain==0.2.1
+langchain-core<0.3.0           # Required for Langchain 0.2.x
+langchain-groq==0.1.4          # Groq LLM integration
+langchain-openai==0.1.8        # OpenAI embeddings + LLM via LangChain
+langchain-community==0.2.1     # FAISS integration for LangChain
+
+# --- Vector Store ---
+faiss-cpu==1.8.0               # CPU-only FAISS (no GPU required)
+
+# --- Embeddings (fallback/local option) ---
+sentence-transformers==2.7.0   # BAAI/bge-small-en if OpenAI not used
+
+# --- Utilities ---
+python-dotenv==1.0.1           # Load OPENAI_API_KEY from .env file
+pydantic==2.7.1                # Pydantic v2 (FastAPI compatible)
